@@ -1,0 +1,130 @@
+!SESSION 2013-09-11 21:33:30.562 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-09-11 22:43:56.242
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-09-11 22:45:05.044
+!MESSAGE Error: Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1334)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1378)
+	at org.eclipse.cdt.core.CProjectNature.addNature(CProjectNature.java:78)
+	at org.eclipse.cdt.core.CProjectNature.addCNature(CProjectNature.java:44)
+	at org.eclipse.cdt.core.CCorePlugin$2.run(CCorePlugin.java:869)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.cdt.core.CCorePlugin.createCDTProject(CCorePlugin.java:847)
+	at org.eclipse.cdt.core.CCorePlugin.createCDTProject(CCorePlugin.java:837)
+	at org.eclipse.cdt.managedbuilder.ui.wizards.NewMakeProjFromExisting$1.execute(NewMakeProjFromExisting.java:94)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: /data/home/julliany/workspace/BRKGA_API_Resende/src overlaps the workspace location: /data/home/julliany/workspace/BRKGA_API_Resende/src
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2013-09-11 22:45:05.047
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2013-09-11 22:45:05.047
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2013-09-11 22:45:05.047
+!MESSAGE /data/home/julliany/workspace/BRKGA_API_Resende/src overlaps the workspace location: /data/home/julliany/workspace/BRKGA_API_Resende/src
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-09-11 22:45:05.049
+!MESSAGE Error: Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1334)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1378)
+	at org.eclipse.cdt.core.CProjectNature.addNature(CProjectNature.java:78)
+	at org.eclipse.cdt.core.CCProjectNature.addCCNature(CCProjectNature.java:29)
+	at org.eclipse.cdt.managedbuilder.ui.wizards.NewMakeProjFromExisting$1.execute(NewMakeProjFromExisting.java:98)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: /data/home/julliany/workspace/BRKGA_API_Resende/src overlaps the workspace location: /data/home/julliany/workspace/BRKGA_API_Resende/src
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2013-09-11 22:45:05.049
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2013-09-11 22:45:05.050
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2013-09-11 22:45:05.050
+!MESSAGE /data/home/julliany/workspace/BRKGA_API_Resende/src overlaps the workspace location: /data/home/julliany/workspace/BRKGA_API_Resende/src
+!SESSION 2013-09-11 22:59:33.394 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-09-11 22:59:42.209
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-09-11 23:04:07.812
+!MESSAGE Error: Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1334)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1378)
+	at org.eclipse.cdt.core.CProjectNature.addNature(CProjectNature.java:78)
+	at org.eclipse.cdt.core.CProjectNature.addCNature(CProjectNature.java:44)
+	at org.eclipse.cdt.core.CCorePlugin$2.run(CCorePlugin.java:869)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.cdt.core.CCorePlugin.createCDTProject(CCorePlugin.java:847)
+	at org.eclipse.cdt.core.CCorePlugin.createCDTProject(CCorePlugin.java:837)
+	at org.eclipse.cdt.managedbuilder.ui.wizards.NewMakeProjFromExisting$1.execute(NewMakeProjFromExisting.java:94)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: /data/home/julliany/workspace/BRKGA_API_Resende/src overlaps the workspace location: /data/home/julliany/workspace/BRKGA_API_Resende/src
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2013-09-11 23:04:07.813
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2013-09-11 23:04:07.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2013-09-11 23:04:07.813
+!MESSAGE /data/home/julliany/workspace/BRKGA_API_Resende/src overlaps the workspace location: /data/home/julliany/workspace/BRKGA_API_Resende/src
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-09-11 23:04:07.815
+!MESSAGE Error: Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1334)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1378)
+	at org.eclipse.cdt.core.CProjectNature.addNature(CProjectNature.java:78)
+	at org.eclipse.cdt.core.CCProjectNature.addCCNature(CCProjectNature.java:29)
+	at org.eclipse.cdt.managedbuilder.ui.wizards.NewMakeProjFromExisting$1.execute(NewMakeProjFromExisting.java:98)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: /data/home/julliany/workspace/BRKGA_API_Resende/src overlaps the workspace location: /data/home/julliany/workspace/BRKGA_API_Resende/src
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2013-09-11 23:04:07.815
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2013-09-11 23:04:07.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2013-09-11 23:04:07.815
+!MESSAGE /data/home/julliany/workspace/BRKGA_API_Resende/src overlaps the workspace location: /data/home/julliany/workspace/BRKGA_API_Resende/src
